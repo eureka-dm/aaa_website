@@ -1,19 +1,20 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'devise'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development do
 	gem 'sqlite3'
-	gem 'rspec-rails', '2.6.1', :require => 'rpsec-rails'
+	gem 'rspec-rails', '2.6.1', :require => 'rspec-rails'
 	gem 'faker', '0.3.1'
 end
 
 group :test do
 	gem 'sqlite3'
-	gem 'rspec-rails', '2.6.1', :require => 'rpsec-rails'
+	gem 'rspec-rails', '2.6.1', :require => 'rspec-rails'
 	gem 'webrat', '0.7.1'
 	gem 'factory_girl_rails', '1.0'
 	gem 'turn', :require => false
